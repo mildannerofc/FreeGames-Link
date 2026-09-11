@@ -2,6 +2,8 @@
 
 # FreeGames (PlayWorks) - Accessible Links Repo
 A repository to bring Free Games in your browser.
+## A page version of this file is available
+- [Click here to access](https://mildannerofc.github.io/FreeGames-Link/)
 
 ## Platform Links
 
