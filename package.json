@@ -1,0 +1,56 @@
+{
+  "name": "freegames-link",
+  "version": "1.0.0",
+  "description": "FreeGames (PlayWorks) - Accessible Links Repository. Interactive web interface to access FreeGames across multiple platform configurations.",
+  "main": "index.html",
+  "private": false,
+  "scripts": {
+    "start": "npx http-server",
+    "serve": "npx live-server",
+    "dev": "npx http-server -c-1"
+  },
+  "keywords": [
+    "freegames",
+    "playworks",
+    "games",
+    "gaming",
+    "platform",
+    "multi-platform",
+    "browser-games",
+    "accessible",
+    "html",
+    "css",
+    "javascript",
+    "web-app"
+  ],
+  "author": {
+    "name": "mildannerofc",
+    "url": "https://github.com/mildannerofc"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mildannerofc/FreeGames-Link#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mildannerofc/FreeGames-Link.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mildannerofc/FreeGames-Link/issues"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.html",
+    "styles.css",
+    "script.js",
+    "README.md",
+    "package.json"
+  ],
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead"
+  ]
+}
