@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeGames (PlayWorks) - Platform Links</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen hidden">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <p>Redirecting to FreeGames...</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>FreeGames (PlayWorks)</h1>
+            <p class="subtitle">Accessible Links Repository</p>
+            <p class="description">Click any button below to access FreeGames with your device's configuration</p>
+        </header>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-bar" 
+                placeholder="Search platforms..."
+                aria-label="Search platforms"
+            >
+        </div>
+
+        <main>
+            <!-- Default & Standard Platforms -->
+            <section class="platform-section">
+                <h2>Default & Standard Platforms</h2>
+                <div class="platform-grid" id="section-default">
+                    <button class="platform-btn" data-platform="default">Default</button>
+                    <button class="platform-btn" data-platform="comcast">Comcast</button>
+                    <button class="platform-btn" data-platform="lg">LG</button>
+                    <button class="platform-btn" data-platform="webos">WebOS</button>
+                    <button class="platform-btn" data-platform="samsung">Samsung</button>
+                    <button class="platform-btn" data-platform="vizio">Vizio</button>
+                    <button class="platform-btn" data-platform="vizio_via">Vizio Via</button>
+                    <button class="platform-btn" data-platform="dishtv">DishTV</button>
+                    <button class="platform-btn" data-platform="philips">Philips</button>
+                </div>
+            </section>
+
+            <!-- Streaming & Smart Device Platforms -->
+            <section class="platform-section">
+                <h2>Streaming & Smart Device Platforms</h2>
+                <div class="platform-grid" id="section-streaming">
+                    <button class="platform-btn" data-platform="zeasn">Zeasn</button>
+                    <button class="platform-btn" data-platform="vewd">Vewd</button>
+                    <button class="platform-btn" data-platform="vidaa">Vidaa</button>
+                    <button class="platform-btn" data-platform="youview">YouView</button>
+                    <button class="platform-btn" data-platform="bt">BT</button>
+                    <button class="platform-btn" data-platform="retail">Retail</button>
+                    <button class="platform-btn" data-platform="talktalk">TalkTalk</button>
+                    <button class="platform-btn" data-platform="sony_youview">Sony YouView</button>
+                    <button class="platform-btn" data-platform="lgi">LGi</button>
+                    <button class="platform-btn" data-platform="lightning">Lightning</button>
+                </div>
+            </section>
+
+            <!-- International Carriers -->
+            <section class="platform-section">
+                <h2>International Carriers</h2>
+                <div class="platform-grid" id="section-international">
+                    <button class="platform-btn" data-platform="orange">Orange</button>
+                    <button class="platform-btn" data-platform="verizon">Verizon</button>
+                    <button class="platform-btn" data-platform="virgin">Virgin</button>
+                    <button class="platform-btn" data-platform="sky">Sky</button>
+                    <button class="platform-btn" data-platform="sky_uk">Sky UK</button>
+                    <button class="platform-btn" data-platform="sky_uk_glass">Sky UK Glass</button>
+                    <button class="platform-btn" data-platform="sky_de">Sky DE</button>
+                    <button class="platform-btn" data-platform="sky_it">Sky IT</button>
+                    <button class="platform-btn" data-platform="deutch_telecom">Deutch Telecom</button>
+                </div>
+            </section>
+
+            <!-- Comcast Variants -->
+            <section class="platform-section">
+                <h2>Comcast Variants</h2>
+                <div class="platform-grid" id="section-comcast">
+                    <button class="platform-btn" data-platform="comcast_reg">Comcast Reg</button>
+                    <button class="platform-btn" data-platform="comcast_kids">Comcast Kids</button>
+                </div>
+            </section>
+
+            <!-- Cable & Internet Providers -->
+            <section class="platform-section">
+                <h2>Cable & Internet Providers</h2>
+                <div class="platform-grid" id="section-cable">
+                    <button class="platform-btn" data-platform="tellytv">TellyTV</button>
+                    <button class="platform-btn" data-platform="cogeco">Cogeco</button>
+                    <button class="platform-btn" data-platform="shaw">Shaw</button>
+                    <button class="platform-btn" data-platform="rogers">Rogers</button>
+                    <button class="platform-btn" data-platform="videotron">Videotron</button>
+                    <button class="platform-btn" data-platform="cox">Cox</button>
+                </div>
+            </section>
+
+            <!-- Fire TV & Android Platforms -->
+            <section class="platform-section">
+                <h2>Fire TV & Android Platforms</h2>
+                <div class="platform-grid" id="section-firetv">
+                    <button class="platform-btn" data-platform="firetv">FireTV</button>
+                    <button class="platform-btn" data-platform="sling_androidtv">Sling Android TV</button>
+                    <button class="platform-btn" data-platform="sling_firetv">Sling FireTV</button>
+                    <button class="platform-btn" data-platform="sling_samsung">Sling Samsung</button>
+                    <button class="platform-btn" data-platform="sling_lg">Sling LG</button>
+                    <button class="platform-btn" data-platform="sling_vizio">Sling Vizio</button>
+                    <button class="platform-btn" data-platform="sling_comcast">Sling Comcast</button>
+                    <button class="platform-btn" data-platform="sling_airtvplayer">Sling AirTV Player</button>
+                    <button class="platform-btn" data-platform="sling_kepler">Sling Kepler</button>
+                    <button class="platform-btn" data-platform="android_hilton">Android Hilton</button>
+                </div>
+            </section>
+
+            <!-- GameLoop Platforms -->
+            <section class="platform-section">
+                <h2>GameLoop Platforms</h2>
+                <div class="platform-grid" id="section-gameloop">
+                    <button class="platform-btn" data-platform="gameloop_lg">GameLoop LG</button>
+                    <button class="platform-btn" data-platform="gameloop_adth">GameLoop ADTH</button>
+                    <button class="platform-btn" data-platform="gameloop_sony">GameLoop Sony</button>
+                    <button class="platform-btn" data-platform="gameloop_hisense">GameLoop Hisense</button>
+                    <button class="platform-btn" data-platform="gameloop_samsung">GameLoop Samsung</button>
+                    <button class="platform-btn" data-platform="gameloop_samsung_ctv">GameLoop Samsung CTV</button>
+                    <button class="platform-btn" data-platform="gameloop_zinwell">GameLoop Zinwell</button>
+                </div>
+            </section>
+
+            <!-- MobiTech Platforms -->
+            <section class="platform-section">
+                <h2>MobiTech Platforms</h2>
+                <div class="platform-grid" id="section-mobitech">
+                    <button class="platform-btn" data-platform="mobitech">MobiTech</button>
+                    <button class="platform-btn" data-platform="mobitech_lenovo">MobiTech Lenovo</button>
+                    <button class="platform-btn" data-platform="mobitech_tcl">MobiTech TCL</button>
+                    <button class="platform-btn" data-platform="mobitech_xiaomi">MobiTech Xiaomi</button>
+                    <button class="platform-btn" data-platform="mobitech_coolita">MobiTech Coolita</button>
+                </div>
+            </section>
+
+            <!-- Other Platforms -->
+            <section class="platform-section">
+                <h2>Other Platforms</h2>
+                <div class="platform-grid" id="section-other">
+                    <button class="platform-btn" data-platform="sony">Sony</button>
+                    <button class="platform-btn" data-platform="webos_motor">WebOS Motor</button>
+                    <button class="platform-btn" data-platform="netgem">NetGem</button>
+                    <button class="platform-btn" data-platform="hilton">Hilton</button>
+                    <button class="platform-btn" data-platform="titan">Titan</button>
+                    <button class="platform-btn" data-platform="cordova">Cordova</button>
+                    <button class="platform-btn" data-platform="html">HTML</button>
+                    <button class="platform-btn" data-platform="fetch">Fetch</button>
+                    <button class="platform-btn" data-platform="review">Review</button>
+                    <button class="platform-btn" data-platform="metrological">Metrological</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- No Results Message -->
+        <div id="noResults" class="no-results hidden">
+            <p>No platforms match your search.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
