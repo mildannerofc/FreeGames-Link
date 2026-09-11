@@ -91,6 +91,4 @@ Click on any platform below to access FreeGames with that device's configuration
 - [Review](https://service.play.works/service/apps/html5_hub/index.html?config=%2F%2Fservice.play.works%2Fshared%2Fgames_portal%2Fconfig.json&platform=review&initial_app_id=freegames)
 - [Metrological](https://service.play.works/service/apps/html5_hub/index.html?config=%2F%2Fservice.play.works%2Fshared%2Fgames_portal%2Fconfig.json&platform=metrological&initial_app_id=freegames)
 
----
-
 Click any link above to open FreeGames with the corresponding device configuration. Each link simulates accessing the service from the specified platform.
