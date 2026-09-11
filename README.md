@@ -1,9 +1,9 @@
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/e12d0734-e75b-4042-a9d8-26cea2b97874" />
 
-> [!CAUTION]
-> This repository is NOT endorsed by PlayWorks, this repository is made to make easier access to their games. As much these games are designed only for TVs and are based on HTML, it is playable on browsers. You can play these games, as much these cannot work perfectly for you or the system you picked is giving you results feeling off.
 # FreeGames (PlayWorks) - Accessible Links Repo
 A repository to bring Free Games in your browser.
+> [!CAUTION]
+> This repository is NOT endorsed by PlayWorks, this repository is made to make easier access to their games. As much these games are designed only for TVs and are based on HTML, it is playable on browsers. You can play these games, as much these cannot work perfectly for you or the system you picked is giving you results feeling off.
 ## A page version of this file is available
 - [Click here to access](https://mildannerofc.github.io/FreeGames-Link/)
 
