@@ -1,4 +1,4 @@
-# FreeGames-Link
+# FreeGames (PlayWorks) - Accessible Links Repo
 A repository to bring Free Games in your browser.
 
 ## Platform Links
